@@ -1,1 +1,13 @@
 
+This folder contains the different sas files containing all the necessary code for the project.
+
+stroke_data.csv contains the original data that was donwloaded from the following link: https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
+stroke_data-sas.csv contains the same dataset, with variables recoded (code for that is in Stroke-univariee) to fit sas variable formats.
+
+Stroke_univariee.sas contains the initial importation of the data to SAS as well as a univariate analysis of the dataset, including modifications to the dataset.
+Stroke_importation contains code for importing the dataset and applying all modifications that the univariate analysis suggested. 
+  This file only exist for easier availability of the importation.
+Stroke_bivariee.sas contains code for the bivariate analysis of the dataset.
+
+Stroke_model.sas contains code for the models used to predict stroke occurences.
+Foret_alatoire.sas contains the code for the evaluation of a random forest model.
